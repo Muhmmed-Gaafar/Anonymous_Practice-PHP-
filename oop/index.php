@@ -2,22 +2,15 @@
 
     class  Student
     {
+        public $name = 'Muhmmed' ;
+        protected  $age = 25;
+        private  $salary = '10 $' ;
 
-        public $ge = 25 ;
-        protected  $a = 'go to';
-        private  $p = 55 ;
         public function test (){
-            echo $this->p;
+            return $this->name . $this->age . $this->salary;
         }
 
     }
-
-    class School extends Student{
-
-    }
-
 $student = new Student();
-$school = new School();
 
-$school->test();
 
