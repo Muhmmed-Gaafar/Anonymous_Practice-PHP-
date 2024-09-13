@@ -1,11 +1,8 @@
 <?php
 
-    $a = 'welcome to php ';
 
-    //echo str_replace('to','in' , $a);
-    $result = explode(' ',$a);
-    echo $result[1];
-    echo '<br>';
-    $ar = ['we','ew'];
+$a = [1,2,3,4,5,6,7,8,9,10];
 
-    echo count($ar);
+
+
+
