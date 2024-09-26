@@ -1,12 +1,13 @@
 <?php
+echo $_REQUEST['test'];
 
-
-$a=55;
-$b=10;
-
-function sum($a,$b){
-    return $a+$b;
-}
+?>
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?> " >
+    <label>
+        <input type="text" name="test" />
+    </label>
+    <input type="submit" value="send" />
+</form>
 
 
 
