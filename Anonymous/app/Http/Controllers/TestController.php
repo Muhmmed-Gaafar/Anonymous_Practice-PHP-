@@ -12,4 +12,8 @@ class TestController extends Controller
         $name = Test::where('name', 'Miss Jazmin Dibbert')->first();
         return view('test.index' , compact('name'));
     }
+    public function create()
+    {
+        return view('test.create');
+    }
 }
