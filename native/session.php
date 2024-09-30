@@ -9,5 +9,5 @@
 
     //session_destroy();
 
-
+    setcookie('any','test value',time()+86400);
     ob_end_flush();

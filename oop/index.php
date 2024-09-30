@@ -2,15 +2,12 @@
 
     class  Student
     {
-        public $name = 'Muhmmed' ;
-        protected  $age = 25;
-        private  $salary = '10 $' ;
+        public $name = 'Muhammed' ;
 
-        public function test (){
-            return $this->name . $this->age . $this->salary;
+        public function info ($name , $age ){
+            return $age.$name ;
         }
-
     }
-$student = new Student();
+    $student = new Student();
 
 
