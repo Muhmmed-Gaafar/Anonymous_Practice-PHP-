@@ -13,6 +13,10 @@ class ExampleController extends Controller
     {
         //
     }
+    public function test(Request $request)
+    {
+        return view('test');
+    }
 
     /**
      * Show the form for creating a new resource.
