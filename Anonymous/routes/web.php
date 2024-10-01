@@ -12,3 +12,4 @@ Route::get('/user', function () {
 Route::get('/index',[TestController::class,'index'])->name('index');
 
 
+
