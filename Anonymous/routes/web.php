@@ -10,7 +10,7 @@ Route::get('/', function () {
 Route::get('/user', function () {
     return '<h1>hello world</h1>';
 });
-Route::get('/index',[TestController::class,'index'])->name('index');
+Route::get('/index','ExampleController@index')->name('index');
 
 Route::controller(ExampleController::class)->group(function () {
     Route::get('/test', 'test');
